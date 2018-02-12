@@ -1,0 +1,18 @@
+<resources>
+    <string name="app_name">DemoTwo</string>
+    <string name="input_activity_name_text">From activity:</string>
+    <string name="input_text_view_content">Content:</string>
+    <string name="compose_button_text">Compose</string>
+    <string name="compose_back_button_text">Back</string>
+    <string name="compose_done_button_text">Done</string>
+    <string name="notices_title">Notices</string>
+    <string name="home_button_text">Home</string>
+    <string name="menu_notice_button_text">Notices</string>
+    <string name="menu_calendar_button_text">Calendar</string>
+    <string name="menu_statistics_button_text">Statistics</string>
+    <string name="menu_members_button_text">Members</string>
+    <string name="menu_log_button_text">Log</string>
+    <string name="menu_gallery_button_text">Gallery</string>
+    <string name="example_name">Example Name</string>
+    <string name="position_of_resposibility">Position of responsibility</string>
+</resources>

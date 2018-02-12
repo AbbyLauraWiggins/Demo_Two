@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="5dp">
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/menu_home_button"
+        android:text="@string/home_button_text"
+        android:onClick="onHomeClick"
+        android:layout_weight="0"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:gravity="center"
+        >
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/app_name"
+            android:textStyle="bold"
+            android:textSize="30dp"
+            />
+
+    </LinearLayout>
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/menu_notice_button"
+        android:text="@string/menu_notice_button_text"
+        android:onClick="onMenuNoticeClick"
+        />
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/menu_calendar_button"
+        android:text="@string/menu_calendar_button_text"
+        android:onClick="onMenuCalendarClick"
+        />
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/menu_statistics_button"
+        android:text="@string/menu_statistics_button_text"
+        android:onClick="onMenuStatisticsClick"
+        />
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/menu_members_button"
+        android:text="@string/menu_members_button_text"
+        android:onClick="onMenuMembersClick"
+        />
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/menu_log_button"
+        android:text="@string/menu_log_button_text"
+        android:onClick="onMenuLogClick"
+        />
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/menu_gallery_button"
+        android:text="@string/menu_gallery_button_text"
+        android:onClick="onMenuGalleryClick"
+        />
+
+
+
+
+
+</LinearLayout>
